@@ -14,7 +14,7 @@ a key-value pair to the playlist object. The function should
 return the whole playlist.*/
 function updatePlaylist(playlist, artistName, songTitle){
   //playlist[artist] = song;
-  return Object.assign({}, playlist, {[artist]: song});
+  return Object.assign({}, playlist, {[artistName]: songTitle});
 };
 
 //updatePlaylist(playlist, "BTS", "FAKE LOVE");

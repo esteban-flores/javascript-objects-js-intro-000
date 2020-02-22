@@ -22,6 +22,6 @@ function updatePlaylist(playlist, artistName, songTitle){
 should delete the key-value pair from the playlist and return the
 updated playlist.*/
 function removeFromPlaylist(playlist, artistName){
-    var key = artistName;
-    return delete playlist[key]
+    //var key = artistName;
+    return delete playlist[artistName]
 }

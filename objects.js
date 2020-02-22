@@ -17,6 +17,7 @@ function updatePlaylist(playlist, artist, song){
   return Object.assign({}, playlist, {[artist]: song});
 };
 
+updatePlaylist(playlist, "BTS", "FAKE LOVE");
 //return Object.assign({}, obj, { [key]: value })
 
 

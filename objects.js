@@ -24,6 +24,4 @@ updated playlist.*/
 function removeFromPlaylist(playlist, artistName){
     var key = artistName;
     return delete playlist["key"]
-    //Object.assign({[key]: null}, playlist, {});
-    //return playlist;
 }

@@ -21,8 +21,9 @@ function updatePlaylist(playlist, artistName, songTitle){
 (the playlist object and the artist name). The body of the function
 should delete the key-value pair from the playlist and return the
 updated playlist.*/
-var playlist = { Slowdive: "Alison"};
 function removeFromPlaylist(playlist, artistName){
-  console.log(playlist['artistName']);
-};
-console.log(removeFromPlaylist(playlist, Slowdive));
+    var key = artistName;
+    return delete playlist['key']
+    //Object.assign({[key]: null}, playlist, {});
+    //return playlist;
+}

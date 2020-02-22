@@ -13,9 +13,11 @@ title. The body of the function should add the song and artist as
 a key-value pair to the playlist object. The function should
 return the whole playlist.*/
 function updatePlaylist(playlist, artist, song){
-  playlist[artist] = song;
-  return playlist;
+  //playlist[artist] = song;
+  return Object.assign({}, playlist, {[artist]: song});
 };
+
+//return Object.assign({}, obj, { [key]: value })
 
 
 /*Create a function removeFromPlaylist that accepts two arguments

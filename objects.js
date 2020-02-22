@@ -5,7 +5,7 @@
 /*Assign an object to the variable playlist and initialize the object
 with a key-value pair — the keys will be artist names and the values
 will be song titles. (What limitation does this impose on our playlist?)*/
-var playlist = { artistName: songTitle};
+var playlist = { [artistName]: songTitle};
 
 /*Create a function updatePlaylist that accepts three parameters:
 the playlist (an object), an artist name (a string), and a song

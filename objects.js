@@ -23,6 +23,6 @@ should delete the key-value pair from the playlist and return the
 updated playlist.*/
 var playlist = { Slowdive: "Alison"};
 function removeFromPlaylist(playlist, artistName){
-  return playlist.artistName;
+  console.log(playlist['artistName']);
 };
 console.log(removeFromPlaylist(playlist, Slowdive));

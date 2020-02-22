@@ -12,7 +12,7 @@ the playlist (an object), an artist name (a string), and a song
 title. The body of the function should add the song and artist as
 a key-value pair to the playlist object. The function should
 return the whole playlist.*/
-function updatePlaylist(playlist, "artistName", "songTitle"){
+function updatePlaylist(playlist, artistName, songTitle){
   playlist["artistName"] = "songTitle";
   //return Object.assign({}, playlist, {[artistName]: songTitle});
 };

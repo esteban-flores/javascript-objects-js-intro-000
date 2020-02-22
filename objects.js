@@ -23,7 +23,7 @@ should delete the key-value pair from the playlist and return the
 updated playlist.*/
 function removeFromPlaylist(playlist, artistName){
     var key = artistName;
-    return delete playlist['key']
+    return delete playlist["key"]
     //Object.assign({[key]: null}, playlist, {});
     //return playlist;
 }

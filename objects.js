@@ -25,3 +25,4 @@ var playlist = { Slowdive: "Alison"};
 function removeFromPlaylist(playlist, artistName){
   return playlist.artistName;
 };
+console.log(removeFromPlaylist(playlist, Slowdive));
